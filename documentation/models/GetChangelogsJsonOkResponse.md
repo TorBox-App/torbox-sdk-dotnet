@@ -1,0 +1,23 @@
+# GetChangelogsJsonOkResponse
+
+**Properties**
+
+| Name    | Type                                  | Required | Description |
+| :------ | :------------------------------------ | :------- | :---------- |
+| Data    | List<GetChangelogsJsonOkResponseData> | ❌       |             |
+| Detail  | string                                | ❌       |             |
+| Error   | object                                | ❌       |             |
+| Success | bool                                  | ❌       |             |
+
+# GetChangelogsJsonOkResponseData
+
+**Properties**
+
+| Name      | Type   | Required | Description |
+| :-------- | :----- | :------- | :---------- |
+| CreatedAt | string | ❌       |             |
+| Html      | string | ❌       |             |
+| Id        | string | ❌       |             |
+| Link      | string | ❌       |             |
+| Markdown  | string | ❌       |             |
+| Name      | string | ❌       |             |
